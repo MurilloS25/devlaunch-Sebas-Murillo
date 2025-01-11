@@ -1,0 +1,57 @@
+Proporciona una explicaciópn detallada den un archivo .txt de las acciones que realizarías al prepararte para conducir un coche automático.
+
+Este ejercicio está diseñado para ayudarte a entender los conceptos básicos de los algoritmos al darte un ejemplo del mundo real sobre cómo 
+llevar tu coche a dar un paseo.
+
+
+**MÍ SOLUCIÓN:**
+
+Buscar las llaves del carro.
+Verificar si esta abierto el carro.
+      Esta abierto, subir al carro
+      No esta abierto, abrir el carro.
+
+Abrir la tapa del carro.
+Revisar los temas de mecanica básica del carro, como nivel de aceite, agua o coolant, frenos, luces, nivel de aire en las llantas, etc.
+
+Subir al carro y ajustar el asiento, los espejos y colocarse cinturon de seguridad.
+Encender el coche.
+
+En caso de querer escuchar música, 
+      Encender la radio o conectar el celular al bluetooth, 
+      De no querer escuchar música, apagar la radio o bajar el volumen.
+      
+En caso de necesitar GPS.
+      Encenderlo y seleccionar el destino deseado.
+
+Presionar el freno y pasar la caja de cambios a la posición de Neutro, para desactivar el freno de mano y así cuidar la caja del vehiculo.
+Pasar la caja de cambios a la posición necesaria para salir ya sea D o R.
+Salir del lugar en el que se encuentra el carro.
+Comenzar a conducir.
+
+
+**SOLUCIÓN ANTHONY:**
+Busco las llaves.
+Voy hacia el coche.
+Procedo a abrir el vehículo.
+
+¿El vehículo está abierto?
+-Si está cerrado, uso la llave para desbloquear la puerta.
+-Si está abierto, abro la puerta.
+
+Me siento y me pongo el cinturón de seguridad.
+
+Si varias personas usan el coche:
+Ajusto los espejos.
+
+De lo contrario, dejo los espejos tal como están.
+
+Coloco la llave en el cilindro del coche y la giro a la derecha para encender el motor.
+Pongo el pie en el freno y suelto el freno de mano.
+Pongo la marcha en reversa y procedo a salir del garaje.
+
+¿Si un coche se aproxima?
+
+Procedo a esperar a que pase.
+Si no se aproxima ningún coche, continúo saliendo.
+Pongo la marcha en drive (D) y voy hacia mi destino.
