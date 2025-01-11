@@ -1,0 +1,71 @@
+Proporciona una explicación detallada en un archivo .txt de las acciones que realizarías al cocinar un huevo.
+
+**MÍ SOLUCUIÓN**
+
+Decidir que tipo de huevo quieres comer, frito, picado, etc.
+Preparar los ingredientes para cocinar el huevo.
+
+¿Hay todo lo necesario para prerar el huevo?
+    Si hay, dejar todo preparado.
+    Si no hay, ir a comprar lo necesario.
+
+Preparar la sartén u olla para cocinar el huevo.
+Encender la cocina.
+Poner la sartén u olla en la cocina.
+Esperar a que la sartén u olla se caliente.
+Colocar el huevo y los demás ingredientes según el tipo de huevo que se quiera cocinar.
+Esperar a que el huevo se cocine.
+
+Revisar que el huevo quede cocinado al gusto.
+    Si no está cocinado al gusto, esperar un poco más.
+    Si está cocinado al gusto, retirar de la cocina.
+
+Apagar la cocina.
+Servir el huevo en un plato.
+Comerse el huevo.
+
+
+
+**SOLUCIÓN ANTHONY**
+Ve a la cocina.
+
+Busca una sartén.
+Tómala con la mano derecha.
+
+Busca un huevo.
+Tómalo con la mano izquierda.
+
+Ve a la estufa.
+Coloca la sartén en la estufa.
+
+Enciende la estufa a temperatura media.
+
+Agrega un poco de aceite en la sartén.
+
+Rompe el huevo en el borde de la sartén.
+
+Echa el huevo en la sartén.
+Durante 3 minutos:
+
+Deja que el huevo se cocine.
+Toma una espátula.
+
+Mientras el huevo no esté cocido:
+Intenta separarlo de la sartén.
+
+Si el huevo se ha separado:
+El huevo está cocido.
+
+Da la vuelta al huevo.
+Espera un minuto.
+
+Apaga la estufa.
+Busca un plato.
+
+Toma el plato.
+Ve a la estufa.
+
+Toma el huevo con la espátula.
+
+Coloca el huevo cocido en el plato.
+Agrega un poco de sal y pimienta.
