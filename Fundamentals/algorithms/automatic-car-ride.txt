@@ -1,10 +1,10 @@
-Proporciona una explicaciópn detallada den un archivo .txt de las acciones que realizarías al prepararte para conducir un coche automático.
+Proporciona una explicación detallada de un archivo .txt de las acciones que realizarías al prepararte para conducir un coche automático.
 
 Este ejercicio está diseñado para ayudarte a entender los conceptos básicos de los algoritmos al darte un ejemplo del mundo real sobre cómo 
 llevar tu coche a dar un paseo.
 
 
-**MÍ SOLUCIÓN:**
+**MÍ SOLUCIÓN**
 
 Buscar las llaves del carro.
 Verificar si esta abierto el carro.
@@ -30,7 +30,7 @@ Salir del lugar en el que se encuentra el carro.
 Comenzar a conducir.
 
 
-**SOLUCIÓN ANTHONY:**
+**SOLUCIÓN ANTHONY**
 Busco las llaves.
 Voy hacia el coche.
 Procedo a abrir el vehículo.
