@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MurilloS25/devlaunch-Sebas-Murillo/issues"
   },
-  "homepage": "https://github.com/MurilloS25/devlaunch-Sebas-Murillo#readme"
+  "homepage": "https://github.com/MurilloS25/devlaunch-Sebas-Murillo#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
