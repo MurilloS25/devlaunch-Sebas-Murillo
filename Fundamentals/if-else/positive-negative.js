@@ -18,7 +18,7 @@ const n = parseFloat(promt('Choose a number: '))
 
 if(n === 0 ){
     console.log('Cero')
-}else if(n >= 0){
+}else if(n > 0){
     console.log('Positivo')
 }else{
     console.log('Negativo')
