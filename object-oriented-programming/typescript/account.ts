@@ -20,14 +20,22 @@ deposit(amount): incrementa el saldo de la cuenta.
 withdraw(amount): disminuye el saldo de la cuenta si hay suficientes fondos.
 transfer(toAccount, amount): transfiere fondos de la cuenta actual a otra cuenta
 si hay suficientes fondos disponibles.
+*/
 
+interface AccountShape{
+  id: number
+  name: string
+  balance: number
+  deposit: (amount: number) => void
+  withdraw: (amount: number) => number | null
+  transfer: (amount:number, toAccount: AccountShape) => AccountShape | null
+}
 
-const prompt = require("prompt-sync")();
 
 const main = () => {
-  const account = new createAccount(1, "Sebas", 100);
+  const account: AccountShape = new ( Account as any) (1, "Sebas", 100);
 
-  const account2 = new createAccount(2, "Tony");
+  const account2 =  new ( Account as any)(2, "Tony");
 
   account.transfer(50,account2)
 
@@ -35,23 +43,23 @@ const main = () => {
   console.log(account2);
 };
 
-function createAccount(id, name, balance = 0) {
+const Account = function (id: number, name: string, balance: number = 0): AccountShape{
   this.id = id;
   this.holderName = name;
   this.balance = balance;
 
-  this.deposit = (amount) => {
+  this.deposit = (amount: number) => {
     return (this.balance += amount);
   };
 
-  this.withdraw = (amount) => {
+  this.withdraw = (amount: number) => {
     if (this.balance > amount) {
       return (this.balance -= amount);
     }
     return null;
   };
 
-  this.transfer = (amount, toAccount) => {
+  this.transfer = (amount: number, toAccount: AccountShape) => {
 
    
       const cash =  this.withdraw(amount)
@@ -70,4 +78,3 @@ function createAccount(id, name, balance = 0) {
 }
 
 main();
-*/

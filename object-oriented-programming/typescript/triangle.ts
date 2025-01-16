@@ -19,30 +19,26 @@ lados es mayor que la longitud del lado restante.
 En este caso, verificamos si (b + c) > a, (a + c) > b, y (a + b) > c.
 
 Si se cumplen las tres condiciones, entonces los lados efectivamente forman un triángulo.
-
-
-function main() {
-  const triangle = {
-    a: 1,
-    b: 1,
-    c: 3,
-  };
-
-  console.log(isValidTriangle(triangle));
-}
-
-function isValidTriangle(triangle) {
-
-    const {a,b,c} = triangle
-    //if (((triangle.b + triangle.c) > triangle.a) && ((triangle.a + triangle.c) > triangle.b) &&  ((triangle.a + triangle.b) > triangle.c)) return 'Is a Valid Triangle'
-
-    if (((b + c) > a) && ((a + c) > b) &&  ((a + b) > c)) return 'Is a Valid Triangle'
-
-
-    return 'Is not a valid triangle'
-}
-
-
-main()
-
 */
+
+interface Triangle {
+  a: number;
+  b: number;
+  c: number;
+}
+
+const triangle: Triangle = {
+  a: 1,
+  b: 1,
+  c: 3,
+};
+
+ console.log(isValidTriangle(triangle));
+
+
+function isValidTriangle({ a, b, c }: Triangle) {
+  if (b + c > a && a + c > b && a + b > c) return "Is a Valid Triangle";
+  return "Is not a valid triangle";
+}
+
+main();
