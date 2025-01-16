@@ -19,5 +19,8 @@
   "homepage": "https://github.com/MurilloS25/devlaunch-Sebas-Murillo#readme",
   "dependencies": {
     "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3"
   }
 }
