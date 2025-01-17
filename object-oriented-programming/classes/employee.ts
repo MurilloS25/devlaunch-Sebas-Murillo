@@ -44,7 +44,7 @@ class Employee{
         }
     }
     
-    giveRaise(aument:number): string{
+    public giveRaise(aument:number): string{
 
         if (aument <= 0) return 'It is impossible receive number negatives o zero'
 
