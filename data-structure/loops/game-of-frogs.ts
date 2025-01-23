@@ -14,44 +14,42 @@ indicando qué rana ganó la carrera.
 
 const TRACK_METERS = 20;
 
-let frog1Position = 0;
-let frog2Position = 0;
-let frog3Position = 0;
+function playGame(): void {
+  let frog1Position = 0;
+  let frog2Position = 0;
+  let frog3Position = 0;
 
-
-function playGame():void {
   while (true) {
     frog1Position = frogMove(frog1Position);
-    printPosition(1,frog1Position)
+    printPosition(1, frog1Position);
     frog2Position = frogMove(frog2Position);
-    printPosition(2,frog2Position)
+    printPosition(2, frog2Position);
     frog3Position = frogMove(frog3Position);
-    printPosition(3,frog3Position)
+    printPosition(3, frog3Position);
 
     if (frog1Position >= TRACK_METERS) {
-        announceWinner(1)
-        break
+      announceWinner(1);
+      break;
     } else if (frog2Position >= TRACK_METERS) {
-        announceWinner(2)
-        break
+      announceWinner(2);
+      break;
     } else if (frog3Position >= TRACK_METERS) {
-        announceWinner(3)
-        break
+      announceWinner(3);
+      break;
     }
   }
 }
 
 function frogMove(position: number) {
-    return position + Math.floor(Math.random() * 3);
-  }
-
-function announceWinner(frogNumber: number): void {
-    console.log(`Frog ${frogNumber} is the winner`)
-  }
-
-function printPosition(frogNumber: number, position:number): void{
-    console.log(`Frog ${frogNumber} position is: ${position}`)
+  return position + Math.floor(Math.random() * 3);
 }
 
+function announceWinner(frogNumber: number): void {
+  console.log(`Frog ${frogNumber} is the winner`);
+}
 
-playGame()
+function printPosition(frogNumber: number, position: number): void {
+  console.log(`Frog ${frogNumber} position is: ${position}`);
+}
+
+playGame();
