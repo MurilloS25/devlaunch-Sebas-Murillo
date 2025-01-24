@@ -5,7 +5,52 @@ números enteros. Al recibir la entrada, el programa ejecutará la operación el
 repetirá en un bucle hasta que el usuario opte por salir.
 */
 
-/* import PromptSync from "prompt-sync";
+function menu(): void {
+    const prompt = require('prompt-sync')();
+    let opcion = 0;
+
+    do {
+        console.log("1. Sum");
+        console.log("2. Rest");
+        console.log("3. Multiply");
+        console.log("4. Divide");
+        console.log("5. Exit");
+        opcion = parseInt(prompt("Ingrese una opción: "));
+
+        if (opcion >= 1 && opcion <= 4) {
+            let num1 = parseInt(prompt("Ingrese el primer número: "));
+            let num2 = parseInt(prompt("Ingrese el segundo número: "));
+
+            switch (opcion) {
+                case 1:
+                    console.log("The Sum is: " + (num1 + num2));
+                    break;
+                case 2:
+                    console.log("La resta es: " + (num1 - num2));
+                    break;
+                case 3:
+                    console.log("La multiplicación es: " + (num1 * num2));
+                    break;
+                case 4:
+                    console.log("La división es: " + (num1 / num2));
+                    break;
+            }
+
+            console.log("Press Enter to continue...");
+            prompt();
+            console.clear();
+        }
+    } while (opcion != 5);
+}
+
+menu();
+
+/* 
+
+MI SOLUCION, Funciono pero no es optima
+
+
+import PromptSync from "prompt-sync";
 
 const prompt = PromptSync();
 
