@@ -4,17 +4,24 @@ principal son cero. Su objetivo es desarrollar una función que determine si una
 */
 
 function isUpperTriangular(matrix: number[][]): boolean {
-    for (let i = 0; i < matrix.length; i++) {
-      for (let j = 0; j < i; j++) {
-        if (matrix[i][j] !== 0) {
-          return false;
-        }
+  if (matrix.length === 0 || matrix.length !== matrix[0].length) {
+    console.log("La matriz debe ser cuadrada y no estar vacia");
+    return false;
+  }
+  for (let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < i; j++) {
+      if (matrix[i][j] !== 0) {
+        return false;
       }
     }
-    return true;
   }
-  
-  const triangularMatrix = [[1, 2, 3],[0, 5, 6],[0, 0, 9]];
-  
-  console.log(isUpperTriangular(triangularMatrix));
-  
+  return true;
+}
+
+const triangularMatrix = [
+  [1, 2, 3],
+  [0, 5, 6],
+  [0, 0, 9],
+];
+
+console.log(isUpperTriangular(triangularMatrix));
